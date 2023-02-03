@@ -1,0 +1,87 @@
+.header{
+   height: 80px;
+
+
+   .wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    align-items: center;
+
+    .link:hover{
+        color: #287afeef;
+    }
+
+    .logo{
+        color: #287afeef;
+        font-weight: 600;
+    }
+
+   }
+
+   .item{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    gap: 10px;
+
+    span{
+        font-size: 15px;
+    }
+   }
+
+   .left{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+
+    .flag{
+        width: 24px;
+    }
+   }
+
+   .center{
+    font-size: 30px;
+    letter-spacing: 2px;
+   }
+
+   .right{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+
+    .icons{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #777;
+        cursor: pointer;
+
+
+        .cartIcon{
+            display: flex;
+            align-items: center;
+            position: relative;
+
+            span{
+                position: absolute;
+                right: -10px;
+                top: -14px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                font-size: 12px;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background-color: #2879fe;
+                color: #ffff;
+            }
+        }
+    }
+   }
+
+
+
+}
